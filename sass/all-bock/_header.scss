@@ -1,0 +1,38 @@
+.header {
+    margin-top: 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__ul {
+    display: flex;
+}
+
+.nav__li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.nav__link {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #83888F;
+text-decoration: none;
+transition: all 0.7s ease;
+}
+
+.nav__link:hover {
+    color: red;
+}
+
+.nav__link:active {
+    color: black;
+}

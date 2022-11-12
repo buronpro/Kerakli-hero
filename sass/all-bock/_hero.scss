@@ -1,0 +1,68 @@
+.hero .container {
+    background-image: url("../../img/Bitmap\ \(1\).jpg");
+    background-repeat: no-repeat;
+    width: 1180px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.hero {
+    margin-top: 30px;
+}
+
+.hero__item {
+    width: 430px;
+    padding: 120px 85px;
+}
+
+.hero__h1 {
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+
+.hero__p {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+
+
+.hero__btn {
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+text-decoration: none;
+padding: 10px 50px;
+transition: all 0.7s ease;
+
+
+&:hover {
+    color: red;
+    background-color: black;
+}
+
+&:active {
+    color: #FEFCF7;
+    background-color: blue;
+}
+
+// &:focus {
+//     background-color: red;
+//     color: black;
+// }
+
+}
+
